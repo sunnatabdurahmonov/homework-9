@@ -1,0 +1,41 @@
+.modal{
+    &.open{
+     width:  100vw;
+     height: 100vh;
+     background-color: rgba(0,0,0,0.4);
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     z-index: 1;
+    }
+    width: 0;
+    height: 0;
+    overflow: hidden;
+ 
+ }
+ 
+ .modal-menu{
+    position: relative;
+     width: 700px;
+     height: 200px;
+     background-color: white;
+     padding: 50px ;
+     box-shadow: -3px 4px 19px 3px rgba(34, 60, 80, 0.34);
+     -moz-box-shadow: -3px 4px 19px 3px rgba(34, 60, 80, 0.34);
+     box-shadow: -3px 4px 19px 3px rgba(34, 60, 80, 0.34);
+     transition: opacity 0.3s ease, visibility 0.3s ease;
+     border-radius: 5px;
+ }
+ .div{
+    text-align: center;
+ }
+ i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    cursor: pointer;
+ }
